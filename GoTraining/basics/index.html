@@ -1,0 +1,1002 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+      <link rel="icon" href="../../img/owl-head.png">
+      <meta name="generator" content="mkdocs-1.2.3, mkdocs-material-7.3.6">
+    
+    
+      
+        <title>Basics - Engin's Personal Docs</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.a57b2b03.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.3f5d1f46.min.css">
+        
+      
+    
+    
+    
+      
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700%7CRoboto+Mono&display=fallback">
+        <style>:root{--md-text-font-family:"Roboto";--md-code-font-family:"Roboto Mono"}</style>
+      
+    
+    
+    
+      <link rel="stylesheet" href="../../css/termynal.css">
+    
+      <link rel="stylesheet" href="../../css/custom.css">
+    
+    
+      
+
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="teal" data-md-color-accent="amber">
+  
+    
+    <script>function __prefix(e){return new URL("../..",location).pathname+"."+e}function __get(e,t=localStorage){return JSON.parse(t.getItem(__prefix(e)))}</script>
+    
+      <script>var palette=__get("__palette");if(null!==palette&&"object"==typeof palette.color)for(var key in palette.color)document.body.setAttribute("data-md-color-"+key,palette.color[key])</script>
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#variables" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="Engin&#39;s Personal Docs" class="md-header__button md-logo" aria-label="Engin's Personal Docs" data-md-component="logo">
+      
+  <img src="../../img/owl-head.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Engin's Personal Docs
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Basics
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      <form class="md-header__option" data-md-component="palette">
+        
+          
+          
+          <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="teal" data-md-color-accent="amber"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_1">
+          
+            <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_2" hidden>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 2a7 7 0 0 0-7 7c0 2.38 1.19 4.47 3 5.74V17a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1v-2.26c1.81-1.27 3-3.36 3-5.74a7 7 0 0 0-7-7M9 21a1 1 0 0 0 1 1h4a1 1 0 0 0 1-1v-1H9v1z"/></svg>
+            </label>
+          
+        
+          
+          
+          <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="teal" data-md-color-accent="amber"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_2">
+          
+            <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_1" hidden>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 2a7 7 0 0 1 7 7c0 2.38-1.19 4.47-3 5.74V17a1 1 0 0 1-1 1H9a1 1 0 0 1-1-1v-2.26C6.19 13.47 5 11.38 5 9a7 7 0 0 1 7-7M9 21v-1h6v1a1 1 0 0 1-1 1h-4a1 1 0 0 1-1-1m3-17a5 5 0 0 0-5 5c0 2.05 1.23 3.81 3 4.58V16h4v-2.42c1.77-.77 3-2.53 3-4.58a5 5 0 0 0-5-5z"/></svg>
+            </label>
+          
+        
+      </form>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+      </label>
+      
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" aria-label="Clear" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        
+<a href="https://github.com/EnginEken/" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 512"><path d="M186.1 328.7c0 20.9-10.9 55.1-36.7 55.1s-36.7-34.2-36.7-55.1 10.9-55.1 36.7-55.1 36.7 34.2 36.7 55.1zM480 278.2c0 31.9-3.2 65.7-17.5 95-37.9 76.6-142.1 74.8-216.7 74.8-75.8 0-186.2 2.7-225.6-74.8-14.6-29-20.2-63.1-20.2-95 0-41.9 13.9-81.5 41.5-113.6-5.2-15.8-7.7-32.4-7.7-48.8 0-21.5 4.9-32.3 14.6-51.8 45.3 0 74.3 9 108.8 36 29-6.9 58.8-10 88.7-10 27 0 54.2 2.9 80.4 9.2 34-26.7 63-35.2 107.8-35.2 9.8 19.5 14.6 30.3 14.6 51.8 0 16.4-2.6 32.7-7.7 48.2 27.5 32.4 39 72.3 39 114.2zm-64.3 50.5c0-43.9-26.7-82.6-73.5-82.6-18.9 0-37 3.4-56 6-14.9 2.3-29.8 3.2-45.1 3.2-15.2 0-30.1-.9-45.1-3.2-18.7-2.6-37-6-56-6-46.8 0-73.5 38.7-73.5 82.6 0 87.8 80.4 101.3 150.4 101.3h48.2c70.3 0 150.6-13.4 150.6-101.3zm-82.6-55.1c-25.8 0-36.7 34.2-36.7 55.1s10.9 55.1 36.7 55.1 36.7-34.2 36.7-55.1-10.9-55.1-36.7-55.1z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    EnginEken
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Engin&#39;s Personal Docs" class="md-nav__button md-logo" aria-label="Engin's Personal Docs" data-md-component="logo">
+      
+  <img src="../../img/owl-head.png" alt="logo">
+
+    </a>
+    Engin's Personal Docs
+  </label>
+  
+    <div class="md-nav__source">
+      
+<a href="https://github.com/EnginEken/" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 512"><path d="M186.1 328.7c0 20.9-10.9 55.1-36.7 55.1s-36.7-34.2-36.7-55.1 10.9-55.1 36.7-55.1 36.7 34.2 36.7 55.1zM480 278.2c0 31.9-3.2 65.7-17.5 95-37.9 76.6-142.1 74.8-216.7 74.8-75.8 0-186.2 2.7-225.6-74.8-14.6-29-20.2-63.1-20.2-95 0-41.9 13.9-81.5 41.5-113.6-5.2-15.8-7.7-32.4-7.7-48.8 0-21.5 4.9-32.3 14.6-51.8 45.3 0 74.3 9 108.8 36 29-6.9 58.8-10 88.7-10 27 0 54.2 2.9 80.4 9.2 34-26.7 63-35.2 107.8-35.2 9.8 19.5 14.6 30.3 14.6 51.8 0 16.4-2.6 32.7-7.7 48.2 27.5 32.4 39 72.3 39 114.2zm-64.3 50.5c0-43.9-26.7-82.6-73.5-82.6-18.9 0-37 3.4-56 6-14.9 2.3-29.8 3.2-45.1 3.2-15.2 0-30.1-.9-45.1-3.2-18.7-2.6-37-6-56-6-46.8 0-73.5 38.7-73.5 82.6 0 87.8 80.4 101.3 150.4 101.3h48.2c70.3 0 150.6-13.4 150.6-101.3zm-82.6-55.1c-25.8 0-36.7 34.2-36.7 55.1s10.9 55.1 36.7 55.1 36.7-34.2 36.7-55.1-10.9-55.1-36.7-55.1z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    EnginEken
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        Home
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../about/" class="md-nav__link">
+        About
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../mrkdwn/" class="md-nav__link">
+        Markdown Tips
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4" type="checkbox" id="__nav_4" checked>
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_4">
+          Training
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Training" data-md-level="1">
+        <label class="md-nav__title" for="__nav_4">
+          <span class="md-nav__icon md-icon"></span>
+          Training
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4_1" type="checkbox" id="__nav_4_1" checked>
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_4_1">
+          Go Training
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Go Training" data-md-level="2">
+        <label class="md-nav__title" for="__nav_4_1">
+          <span class="md-nav__icon md-icon"></span>
+          Go Training
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Basics
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        Basics
+      </a>
+      
+        
+
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#variables" class="md-nav__link">
+    Variables
+  </a>
+  
+    <nav class="md-nav" aria-label="Variables">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#blank-identifier-and-short-declaration" class="md-nav__link">
+    Blank Identifier and Short Declaration
+  </a>
+  
+    <nav class="md-nav" aria-label="Blank Identifier and Short Declaration">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#use-declarations-if" class="md-nav__link">
+    Use Declarations If
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#use-short-declaration-if" class="md-nav__link">
+    Use Short Declaration If
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#type-conversion" class="md-nav__link">
+    Type Conversion
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#raw-stirng-literals" class="md-nav__link">
+    Raw Stirng Literals
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#string-lengths" class="md-nav__link">
+    String Lengths
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#iota" class="md-nav__link">
+    IOTA
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#println-vs-printf" class="md-nav__link">
+    Println vs Printf
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5" type="checkbox" id="__nav_5" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_5">
+          HowTo
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="HowTo" data-md-level="1">
+        <label class="md-nav__title" for="__nav_5">
+          <span class="md-nav__icon md-icon"></span>
+          HowTo
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../HowTo/create-update-comment-jira/" class="md-nav__link">
+        Create-Update-Comment Jira Ticet
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../HowTo/automate-vpn/" class="md-nav__link">
+        Automating Global Protect VPN Connection
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../HowTo/install-smokeping/" class="md-nav__link">
+        How to Install Smokeping
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#variables" class="md-nav__link">
+    Variables
+  </a>
+  
+    <nav class="md-nav" aria-label="Variables">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#blank-identifier-and-short-declaration" class="md-nav__link">
+    Blank Identifier and Short Declaration
+  </a>
+  
+    <nav class="md-nav" aria-label="Blank Identifier and Short Declaration">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#use-declarations-if" class="md-nav__link">
+    Use Declarations If
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#use-short-declaration-if" class="md-nav__link">
+    Use Short Declaration If
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#type-conversion" class="md-nav__link">
+    Type Conversion
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#raw-stirng-literals" class="md-nav__link">
+    Raw Stirng Literals
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#string-lengths" class="md-nav__link">
+    String Lengths
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#iota" class="md-nav__link">
+    IOTA
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#println-vs-printf" class="md-nav__link">
+    Println vs Printf
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content" data-md-component="content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                  <a href="https://github.com/EnginEken/edit/master/docs/GoTraining/basics.md" title="Edit this page" class="md-content__button md-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25z"/></svg>
+                  </a>
+                
+                
+                  <h1>Basics</h1>
+                
+                <h3 id="variables">Variables<a class="headerlink" href="#variables" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Değişkenler go dilinde <code>var &lt;var_name&gt; &lt;var_type&gt;</code> şeklinde tanımlanırlar. Değişken isimler underscore ya da harf ile başlamalıdır. </li>
+<li>Değişken ismi büyük harf ile başlarsa o isim program içerisinde export ediliyor ve program içerisinde kullanılabilir hale geliyor. O yüzden küçük harf ya da alt çizgi ile başlamalı. </li>
+<li>Değişken sayı ile başlayamaz ve ünlem işareti içeremez. Çünkü ünlem işareti go dilinde özel bir anlama sahiptir.</li>
+</ul>
+<table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span>
+<span class="normal">2</span>
+<span class="normal">3</span>
+<span class="normal">4</span>
+<span class="normal">5</span>
+<span class="normal">6</span></pre></div></td><td class="code"><div class="highlight"><pre><span></span><code> <span class="kn">import</span> <span class="s">&quot;fmt&quot;</span>
+
+ <span class="kd">func</span> <span class="nx">main</span><span class="p">()</span> <span class="p">{</span>
+    <span class="kd">var</span> <span class="nx">speed</span> <span class="kt">int</span>
+    <span class="nx">fmt</span><span class="p">.</span><span class="nx">Println</span><span class="p">(</span><span class="nx">speed</span><span class="p">)</span>
+ <span class="p">}</span>
+</code></pre></div>
+</td></tr></table>
+<hr />
+<h4 id="blank-identifier-and-short-declaration">Blank Identifier and Short Declaration<a class="headerlink" href="#blank-identifier-and-short-declaration" title="Permanent link">&para;</a></h4>
+<ul>
+<li>Değişken tipi tanımlarken iki değişkene aynı anda type verebiliriz. <code>var1, var2 string</code> şeklinde tanımladığımızda hem var1 hem de var2 değişkeni string tipinde oluşturuluyor.</li>
+<li><code>func Split(path string) (dir, file string)</code> bu tanımlamada Split fonksiyonu girdi olarak string tipinde path değişkeni alırken çıktı olarak da dir ve file isimli iki adet string tipinde değişken dönüyor. Spllit fonksiyonu <code>path</code> paketinin bir fonksiyonu ve girilen path değişkenini split ederek file ismi ve directory değerini(iki adet değişken) dönüyor.</li>
+<li><code>var dir, file string</code> kodu ile değişkenleri tanımlayıp; <code>dir, file = path.Split("css/main.css")</code> şeklinde fonksiyonu çağırıp dönen değerleri değişkenlere assign edebiliriz.</li>
+<li>Eğer dönen değişkenlerde birini istemiyorsak, örneğin sadece file değşikenini almak istiyorsak, <code>var file string</code> ve <code>_, file = path.Split("css/main.css")</code> şeklinde yazmamız yeterli. Burada dir değişkeni yerine kullanılan alt çizgi <code>blank identifier</code> olarak tanımlanıyor. Kullanmak istenilmeyen değişkenler yerine bu kullanılır.</li>
+<li>Kod daha da kısaltılarak <code>short declaration statement</code> olarak tanımlanabilir. Bu durumda file değişkeninin tipini de tanımlamaya gerek kalmıyor. Fonksiyondan dönen değerin tipi ne ise o tipte oluyor. Bunu yapmak için de <code>:</code> noktalama işareti kullanılıyor. <code>_, file := path.Split("css/main.css")</code> tek satırlık kodu ile hem dönen değişken tipinde hem de değerinde bir değişken elde etmiş oluyoruz.</li>
+</ul>
+<table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"> 1</span>
+<span class="normal"> 2</span>
+<span class="normal"> 3</span>
+<span class="normal"> 4</span>
+<span class="normal"> 5</span>
+<span class="normal"> 6</span>
+<span class="normal"> 7</span>
+<span class="normal"> 8</span>
+<span class="normal"> 9</span>
+<span class="normal">10</span>
+<span class="normal">11</span>
+<span class="normal">12</span>
+<span class="normal">13</span>
+<span class="normal">14</span>
+<span class="normal">15</span>
+<span class="normal">16</span>
+<span class="normal">17</span></pre></div></td><td class="code"><div class="highlight"><pre><span></span><code><span class="kn">import</span> <span class="p">(</span>
+    <span class="s">&quot;fmt&quot;</span>
+    <span class="s">&quot;path&quot;</span>
+<span class="p">)</span>
+
+<span class="kd">func</span> <span class="nx">main</span><span class="p">()</span> <span class="p">{</span>
+    <span class="kd">var</span> <span class="nx">dir</span><span class="p">,</span> <span class="nx">file</span> <span class="kt">string</span>
+    <span class="nx">dir</span><span class="p">,</span> <span class="nx">file</span> <span class="p">=</span> <span class="nx">path</span><span class="p">.</span><span class="nx">Split</span><span class="p">(</span><span class="s">&quot;css/main/main.css&quot;</span><span class="p">)</span>
+    <span class="nx">fmt</span><span class="p">.</span><span class="nx">Println</span><span class="p">(</span><span class="s">&quot;dir: &quot;</span><span class="p">,</span> <span class="nx">dir</span><span class="p">)</span>
+    <span class="nx">fmt</span><span class="p">.</span><span class="nx">Println</span><span class="p">(</span><span class="s">&quot;file: &quot;</span><span class="p">,</span> <span class="nx">file</span><span class="p">)</span>
+
+    <span class="nx">_</span><span class="p">,</span> <span class="nx">file</span> <span class="p">=</span> <span class="nx">path</span><span class="p">.</span><span class="nx">Split</span><span class="p">(</span><span class="s">&quot;js/main/main.js&quot;</span><span class="p">)</span> <span class="c1">//dir değişkenini istemiyorsak &#39;_&#39; ile blank identifier yapabiliriz.</span>
+    <span class="nx">fmt</span><span class="p">.</span><span class="nx">Println</span><span class="p">(</span><span class="s">&quot;file: &quot;</span><span class="p">,</span> <span class="nx">file</span><span class="p">)</span>
+
+    <span class="c1">//_, file := path.Split(&quot;img/icons/icon.png&quot;) --&gt; Bu kısımda en üstteki değişken tipleri tanımlamak istemediğimizde short declaration statement kullanımı.</span>
+    <span class="c1">//fmt.Println(&quot;file: &quot;, file)                     En üstteki değişken tipi tanımlamasını silersek file değişkeni dönen değişkenin tipini alacaktır.</span>
+<span class="p">}</span>
+</code></pre></div>
+</td></tr></table>
+<hr />
+<h6 id="use-declarations-if">Use Declarations If<a class="headerlink" href="#use-declarations-if" title="Permanent link">&para;</a></h6>
+<ol>
+<li>Eğer değişkenin ilk değeri bilinmiyorsa; <code>score := 0</code> yerine <code>var score int</code> kullanımı tavsiye ediliyor. Zaten program kendi bir ilk değer int değişkenine atıyor.</li>
+<li>Package scoped değişken tanımlandığında; herhangi bir fonksiyon içinde değilse paket seviyesinde bir değişken ise zaten shot declarationa izin verilmiyor. </li>
+<li>Değişkenleri daha okunur olması için gruplamak gerektiğinde;</li>
+</ol>
+<table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span>
+<span class="normal">2</span>
+<span class="normal">3</span>
+<span class="normal">4</span>
+<span class="normal">5</span>
+<span class="normal">6</span>
+<span class="normal">7</span>
+<span class="normal">8</span></pre></div></td><td class="code"><div class="highlight"><pre><span></span><code><span class="kd">var</span> <span class="p">(</span>
+    <span class="c1">//related</span>
+    <span class="nx">video</span> <span class="kt">string</span>
+
+    <span class="c1">//closely related</span>
+    <span class="nx">duration</span> <span class="kt">int</span>
+    <span class="nx">current</span> <span class="kt">int</span> 
+    <span class="p">)</span>
+</code></pre></div>
+</td></tr></table>
+<h6 id="use-short-declaration-if">Use Short Declaration If<a class="headerlink" href="#use-short-declaration-if" title="Permanent link">&para;</a></h6>
+<ol>
+<li>Eğer değişkenin ilk değeri biliniyorsa; <code>var width, height = 100, 50</code> yerine <code>width, height := 100, 50</code> kullanılır. </li>
+<li>Kodun kısa ve öz olması açısından da kullanışlıdır.</li>
+<li>Tanımlanan bir değişkenin değeri değiştirilip onunla beraber yeni bir değişken tanımlanacaksa; <code>width = 50</code> ve <code>color := "red"</code> yerine <code>width, color := 50, "red"</code> kullanımı tercih edilmelidir. Buna <code>redeclaration</code> denir.</li>
+<li>Örneğin if statement içerisinde short declaration kullanılarak sadece o statement a ait bir değişken oluşturulabilir. </li>
+</ol>
+<hr />
+<h4 id="type-conversion">Type Conversion<a class="headerlink" href="#type-conversion" title="Permanent link">&para;</a></h4>
+<ul>
+<li>Typelar arası dönüşüm yapmamızı sağlar. Bunun için <code>type(value)</code> formatı kullanılır.</li>
+<li>Dikkatli olunması gerekiyor çünkü tipler değişirken değişkenlerin değerleri değişebilir.</li>
+</ul>
+<table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"> 1</span>
+<span class="normal"> 2</span>
+<span class="normal"> 3</span>
+<span class="normal"> 4</span>
+<span class="normal"> 5</span>
+<span class="normal"> 6</span>
+<span class="normal"> 7</span>
+<span class="normal"> 8</span>
+<span class="normal"> 9</span>
+<span class="normal">10</span>
+<span class="normal">11</span>
+<span class="normal">12</span>
+<span class="normal">13</span>
+<span class="normal">14</span>
+<span class="normal">15</span>
+<span class="normal">16</span>
+<span class="normal">17</span></pre></div></td><td class="code"><div class="highlight"><pre><span></span><code><span class="kn">import</span> <span class="s">&quot;fmt&quot;</span>
+
+<span class="kd">func</span> <span class="nx">main</span><span class="p">()</span> <span class="p">{</span>
+    <span class="nx">speed</span> <span class="o">:=</span> <span class="mi">100</span>
+    <span class="nx">current_time</span> <span class="o">:=</span> <span class="mf">2.5</span>
+    <span class="c1">//Bu durumda current time değişkeni float64 tipinde olduğu için int tipine</span>
+    <span class="c1">//dönüştürülürse değer değişerek 2 değerini alıyor ama olması gereken değer 2.5</span>
+    <span class="nx">speed</span> <span class="p">=</span> <span class="nx">speed</span> <span class="o">*</span> <span class="nb">int</span><span class="p">(</span><span class="nx">current_time</span><span class="p">)</span>
+    <span class="nx">fmt</span><span class="p">.</span><span class="nx">Println</span><span class="p">(</span><span class="nx">speed</span><span class="p">)</span>
+    <span class="c1">//Alttaki satır da hata verecek çünkü iki float64 tipindeki değişkenin çarpımı yine float64</span>
+    <span class="c1">//Ama bu değeri speed değerine atadığımız için ve speed değişkeni de int olduğu için hata verir</span>
+    <span class="c1">//speed = float64(speed) * current_time</span>
+
+    <span class="c1">//Correct way</span>
+    <span class="nx">speed</span> <span class="p">=</span> <span class="nb">int</span><span class="p">(</span><span class="nb">float64</span><span class="p">(</span><span class="nx">speed</span><span class="p">)</span> <span class="o">*</span> <span class="nx">current_time</span><span class="p">)</span>
+    <span class="nx">fmt</span><span class="p">.</span><span class="nx">Println</span><span class="p">(</span><span class="nx">speed</span><span class="p">)</span>
+<span class="p">}</span>
+</code></pre></div>
+</td></tr></table>
+<h4 id="raw-stirng-literals">Raw Stirng Literals<a class="headerlink" href="#raw-stirng-literals" title="Permanent link">&para;</a></h4>
+<ul>
+<li>String literals <code>""</code> içerisinde tanımlanırken raw string literals markdowndaki gibi back tek tırnak kullanılarak tanımlanır.</li>
+<li>String literals birden fazla satır string içeremez ve bunda tab ve enter gibi karakterleri <code>\t\n</code> gibi escape karakterleri kullanarak yapılabilir. Ancal raw string literals birden fazla satır içerebilir. Bununla beraber de escape karakterleri yazmamıza gerek kalmaz. Örneğin html kodunu string değişkenine atarken kullanışlı.</li>
+</ul>
+<table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"> 1</span>
+<span class="normal"> 2</span>
+<span class="normal"> 3</span>
+<span class="normal"> 4</span>
+<span class="normal"> 5</span>
+<span class="normal"> 6</span>
+<span class="normal"> 7</span>
+<span class="normal"> 8</span>
+<span class="normal"> 9</span>
+<span class="normal">10</span>
+<span class="normal">11</span>
+<span class="normal">12</span>
+<span class="normal">13</span>
+<span class="normal">14</span>
+<span class="normal">15</span>
+<span class="normal">16</span>
+<span class="normal">17</span>
+<span class="normal">18</span>
+<span class="normal">19</span>
+<span class="normal">20</span>
+<span class="normal">21</span>
+<span class="normal">22</span>
+<span class="normal">23</span></pre></div></td><td class="code"><div class="highlight"><pre><span></span><code><span class="kn">import</span> <span class="s">&quot;fmt&quot;</span>
+
+<span class="kd">func</span> <span class="nx">main</span><span class="p">()</span> <span class="p">{</span>
+    <span class="kd">var</span> <span class="nx">s</span> <span class="kt">string</span>
+    <span class="nx">s</span> <span class="p">=</span> <span class="s">&quot;How are you?&quot;</span>
+    <span class="nx">s</span> <span class="p">=</span> <span class="s">`How are you?`</span>
+    <span class="nx">fmt</span><span class="p">.</span><span class="nx">Println</span><span class="p">(</span><span class="nx">s</span><span class="p">)</span>
+
+    <span class="c1">//String Literal - I need to type escape character. Go interpret this strings</span>
+    <span class="nx">s</span> <span class="p">=</span> <span class="s">&quot;&lt;html&gt;\n\t&lt;body&gt;\&quot;How are you?&lt;/body&gt;&lt;/html&gt;&quot;</span>
+    <span class="nx">fmt</span><span class="p">.</span><span class="nx">Println</span><span class="p">(</span><span class="nx">s</span><span class="p">)</span>
+
+    <span class="c1">//Raw String Literals - I dont need to type escape charcter. It is whatever it is.</span>
+    <span class="nx">s</span> <span class="p">=</span> <span class="s">`</span>
+<span class="s">&lt;html&gt;</span>
+<span class="s">    &lt;body&gt;&quot;How are you?&quot;&lt;/body&gt;</span>
+<span class="s">&lt;/html&gt;</span>
+<span class="s">    `</span>
+    <span class="nx">fmt</span><span class="p">.</span><span class="nx">Println</span><span class="p">(</span><span class="nx">s</span><span class="p">)</span>
+
+    <span class="nx">fmt</span><span class="p">.</span><span class="nx">Println</span><span class="p">(</span><span class="s">&quot;c:\\my\\dir\\file&quot;</span><span class="p">)</span> <span class="c1">// windows file. Double back slash because slash is a escape sequence</span>
+    <span class="nx">fmt</span><span class="p">.</span><span class="nx">Println</span><span class="p">(</span><span class="s">`c:\my\dir\file`</span><span class="p">)</span>    <span class="c1">//Raw String Literals</span>
+<span class="p">}</span>
+</code></pre></div>
+</td></tr></table>
+<ul>
+<li>The output of the above code:</li>
+</ul>
+<div class="highlight"><pre><span></span><code><span class="go">How are you?</span>
+<span class="go">&lt;html&gt;</span>
+<span class="go">        &lt;body&gt;&quot;How are you?&lt;/body&gt;&lt;/html&gt;</span>
+
+<span class="go">&lt;html&gt;</span>
+<span class="go">        &lt;body&gt;&quot;How are you?&quot;&lt;/body&gt;</span>
+<span class="go">&lt;/html&gt;</span>
+
+<span class="go">c:\my\dir\file</span>
+<span class="go">c:\my\dir\file</span>
+</code></pre></div>
+<h4 id="string-lengths">String Lengths<a class="headerlink" href="#string-lengths" title="Permanent link">&para;</a></h4>
+<ul>
+<li><code>len()</code> fonksiyonu string değişkenlerinin karakter sayılarını değil byte sayılarını döner. İngilizce olmayan karakterler 4 byte a kadar alana sahip olabilirler. Örneğin <code>İ</code> karakteri 2 byte olduğu için <code>"Engİn"</code>  stringinin len fonksiyonu sonucu 5 karakter olmasına rağmen 6 olarak dönecektir.</li>
+</ul>
+<table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span>
+<span class="normal">2</span>
+<span class="normal">3</span></pre></div></td><td class="code"><div class="highlight"><pre><span></span><code>    <span class="nx">lastName</span> <span class="o">:=</span> <span class="s">&quot;Eken&quot;</span>
+    <span class="nx">firstName</span> <span class="o">:=</span> <span class="s">&quot;Engİn&quot;</span>
+    <span class="nx">fmt</span><span class="p">.</span><span class="nx">Println</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="nx">lastName</span><span class="p">),</span> <span class="nb">len</span><span class="p">(</span><span class="nx">firstName</span><span class="p">))</span>
+</code></pre></div>
+</td></tr></table>
+<ul>
+<li>Bunun üstesinden gelmek için <code>unicode/utf8</code> paketini import etmemiz gerekiyor. İmport ettinten sonra aşağıdaki kod bloğu şeklinde kullanarak ingilizce ya da İngilizce olmayan herhangi bir karakteri içeren stringlerin asıl karakter sayısını bulabiliriz.</li>
+</ul>
+<table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span>
+<span class="normal">2</span>
+<span class="normal">3</span>
+<span class="normal">4</span>
+<span class="normal">5</span></pre></div></td><td class="code"><div class="highlight"><pre><span></span><code><span class="kn">import</span> <span class="p">(</span><span class="s">&quot;fmt&quot;</span><span class="p">;</span> <span class="s">&quot;unicode/utf8&quot;</span><span class="p">)</span>
+<span class="kd">func</span> <span class="nx">main</span><span class="p">(){</span>
+    <span class="nx">name</span> <span class="o">:=</span> <span class="s">&quot;Engİn&quot;</span>
+    <span class="nx">fmt</span><span class="p">.</span><span class="nx">Println</span><span class="p">(</span><span class="nx">utf8</span><span class="p">.</span><span class="nx">RuneCountInString</span><span class="p">(</span><span class="nx">name</span><span class="p">))</span>
+<span class="p">}</span>
+</code></pre></div>
+</td></tr></table>
+<ul>
+<li>Yukarıdaki kod parçacığının ekran çıktısı <code>4 6</code> olarak dönecektir.</li>
+</ul>
+<h4 id="iota">IOTA<a class="headerlink" href="#iota" title="Permanent link">&para;</a></h4>
+<ul>
+<li>Const değişkenlerin değerlerini integer olarak 1 arttırarak değer verdirmeye yarıyor. Örneğin günlerin 0 dan başlayarak 7 ye kadar değer almasını istiyorsak aşağıdaki gibi kodu yazmamız gerekiyor:</li>
+</ul>
+<table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"> 1</span>
+<span class="normal"> 2</span>
+<span class="normal"> 3</span>
+<span class="normal"> 4</span>
+<span class="normal"> 5</span>
+<span class="normal"> 6</span>
+<span class="normal"> 7</span>
+<span class="normal"> 8</span>
+<span class="normal"> 9</span>
+<span class="normal">10</span>
+<span class="normal">11</span></pre></div></td><td class="code"><div class="highlight"><pre><span></span><code><span class="kd">const</span> <span class="p">(</span>
+    <span class="nx">monday</span>      <span class="kc">iota</span>    <span class="c1">//0 değerini alıyor</span>
+    <span class="nx">tuesday</span>             <span class="c1">//iota 0dan başladığı için bir arttırılıp 1 değerini alıyor. Aşağı doğru 1 arttırılarak devam ediyor.</span>
+    <span class="nx">wednesday</span>
+    <span class="nx">thursday</span>
+    <span class="nx">friday</span>
+    <span class="nx">saturday</span>
+    <span class="nx">sunday</span>
+    <span class="p">)</span>
+
+<span class="nx">fmt</span><span class="p">.</span><span class="nx">Println</span><span class="p">(</span><span class="nx">monday</span><span class="p">,</span> <span class="nx">tuesday</span><span class="p">,</span> <span class="nx">wednesday</span><span class="p">,</span> <span class="nx">thursday</span><span class="p">,</span> <span class="nx">friday</span><span class="p">,</span> <span class="nx">saturday</span><span class="p">,</span> <span class="nx">sunday</span><span class="p">)</span>
+</code></pre></div>
+</td></tr></table>
+<h4 id="println-vs-printf">Println vs Printf<a class="headerlink" href="#println-vs-printf" title="Permanent link">&para;</a></h4>
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+        
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <nav class="md-footer__inner md-grid" aria-label="Footer">
+      
+        
+        <a href="../../mrkdwn/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Markdown Tips" rel="prev">
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+          </div>
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              Markdown Tips
+            </div>
+          </div>
+        </a>
+      
+      
+        
+        <a href="../../HowTo/create-update-comment-jira/" class="md-footer__link md-footer__link--next" aria-label="Next: Create-Update-Comment Jira Ticet" rel="next">
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              Create-Update-Comment Jira Ticet
+            </div>
+          </div>
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"/></svg>
+          </div>
+        </a>
+      
+    </nav>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+        
+          Made with
+          <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+            Material for MkDocs
+          </a>
+        
+        
+      </div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    <script id="__config" type="application/json">{"base": "../..", "features": ["search.suggest", "search.highlight", "content.tabs.link"], "translations": {"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing", "select.version.title": "Select version"}, "search": "../../assets/javascripts/workers/search.fcfe8b6d.min.js", "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.b1047164.min.js"></script>
+      
+        <script src="../../js/termynal.js"></script>
+      
+        <script src="../../js/custom.js"></script>
+      
+    
+  </body>
+</html>
